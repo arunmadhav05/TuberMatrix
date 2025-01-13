@@ -1,6 +1,4 @@
-# TuberMatrix
-
-TuberMatrix is a VB.NET desktop application designed to simplify your tasks.
+# Vishal's TuberMatrix
 
 ## Download and Install
 
