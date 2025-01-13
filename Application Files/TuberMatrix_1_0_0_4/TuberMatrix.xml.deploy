@@ -1,0 +1,181 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TuberMatrix
+</name>
+</assembly>
+<members>
+<member name="T:TuberMatrix.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TuberMatrix.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TuberMatrix.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:TuberMatrix.My.Resources.Resources.NoPhoto">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_Masters">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_Masters.tbl_UnitMasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_Masters.tbl_UnitMasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_Masters.tbl_UnitMasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_MastersTableAdapters.tbl_UnitMasterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_MastersTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TuberMatrix.DS_MastersTableAdapters.TableAdapterManager.UpdateUpdatedRows(TuberMatrix.DS_Masters,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TuberMatrix.DS_MastersTableAdapters.TableAdapterManager.UpdateInsertedRows(TuberMatrix.DS_Masters,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TuberMatrix.DS_MastersTableAdapters.TableAdapterManager.UpdateDeletedRows(TuberMatrix.DS_Masters,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TuberMatrix.DS_MastersTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TuberMatrix.DS_MastersTableAdapters.TableAdapterManager.UpdateAll(TuberMatrix.DS_Masters)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_MastersTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_MastersTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_VendorMaster">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_VendorMaster.DT_Tbl_VendorMasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_VendorMaster.DS_Tbl_ChargesMasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_VendorMaster.DT_Tbl_VendorMasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_VendorMaster.DS_Tbl_ChargesMasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_VendorMaster.DT_Tbl_VendorMasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_VendorMaster.DS_Tbl_ChargesMasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_VendorMasterTableAdapters.TA_Tbl_VendorMasterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_VendorMasterTableAdapters.TA_Tbl_ChargesMasterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_VendorMasterTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TuberMatrix.DS_VendorMasterTableAdapters.TableAdapterManager.UpdateUpdatedRows(TuberMatrix.DS_VendorMaster,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TuberMatrix.DS_VendorMasterTableAdapters.TableAdapterManager.UpdateInsertedRows(TuberMatrix.DS_VendorMaster,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TuberMatrix.DS_VendorMasterTableAdapters.TableAdapterManager.UpdateDeletedRows(TuberMatrix.DS_VendorMaster,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TuberMatrix.DS_VendorMasterTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TuberMatrix.DS_VendorMasterTableAdapters.TableAdapterManager.UpdateAll(TuberMatrix.DS_VendorMaster)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_VendorMasterTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TuberMatrix.DS_VendorMasterTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
